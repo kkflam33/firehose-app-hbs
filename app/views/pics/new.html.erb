@@ -1,0 +1,12 @@
+<div class="smurfy span6 offset4 text-center">
+	<h1 class="custom-h1">How did Kenny die?</h1>
+
+	<%= simple_form_for @pic do |f| %>
+		<%= f.input :title, label: 'What is this pic about?', placeholder: 'Kenny and the Moose' %>
+		<%= f.input :subtitle, label: 'More details', placeholder: 'e.g. Episode 112' %>
+		<%= f.input :message, label: 'What were Kenny\'s last words?', placeholder: 'ugh, ahhh' %>
+
+		<%= f.submit "Add my Pic", :class => 'btn btn-warning btn-large' %>
+	<% end %>
+
+	</div>
